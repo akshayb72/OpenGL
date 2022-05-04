@@ -1,3 +1,5 @@
+//Old Style OpenGL using immedite mode
+//Immediate mode is highly inefficient for complex program
 #include<GL/glut.h>
 
 void display(void)
@@ -8,7 +10,7 @@ glVertex2f(-0.5,-0.5);//glvertex2f draws a vertex with two coordinates
 glVertex2f(-0.5,0.5);
 glVertex2f(0.5,0.5);
 glVertex2f(0.5,-0.5);
-glEnd();//glend completes the function
+glEnd();//glEnd Finishes the program
 glutSwapBuffers();
 }
 
