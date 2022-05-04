@@ -2,13 +2,13 @@
 
 void display(void)
 {   
-glClear(GL_COLOR_BUFFER_BIT);
-glBegin(GL_POLYGON);
-glVertex2f(-0.5,-0.5);
+glClear(GL_COLOR_BUFFER_BIT);//glclear clears everything that was previous done
+glBegin(GL_POLYGON);//glbegin initializes the program
+glVertex2f(-0.5,-0.5);//glvertex2f draws a vertex with two coordinates
 glVertex2f(-0.5,0.5);
 glVertex2f(0.5,0.5);
 glVertex2f(0.5,-0.5);
-glEnd();
+glEnd();//glend completes the function
 glutSwapBuffers();
 }
 
