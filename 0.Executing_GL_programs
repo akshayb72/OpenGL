@@ -1,1 +1,3 @@
-/*gcc filename.c -lGL -lGLU -lglut -lm -o filename*/
+To compile a C/C++ file to an executable on terminal
+gcc filename.c -lGL -lGLU -lglut -lm -o filename
+g++ filename.c -lGL -lGLU -lglut -lm -o filename
