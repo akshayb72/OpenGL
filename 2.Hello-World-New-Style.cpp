@@ -1,3 +1,4 @@
+//Efficient method
 
 #include "Angel.h"
 
