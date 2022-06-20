@@ -14,10 +14,10 @@ vec2 ( -0.5 , 0.5 ) , vec2 ( -0.5 , -0.5 )
 GLuint vao;
 GLuint buffer;
 
-GLuint glGenVertexArrays(1,&vao);
+glGenVertexArrays(1,&vao);
 glBindVertexArray(vao) ;
 
-GLuint glGenBuffers(1, &buffer);
+glGenBuffers(1, &buffer);
 glBindBuffer(GL_ARRAY_BUFFER,buffer);
 
 glBufferData(GL_ARRAY_BUFFER,sizeof(points),points,GL_STATIC_DRAW);
