@@ -1,5 +1,6 @@
 //Old Style OpenGL using immedite mode
-//Immediate mode is highly inefficient for complex program
+//Immediate mode is highly inefficient for using in complex programs
+
 #include<GL/glut.h>
 
 void display(void)
